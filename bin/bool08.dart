@@ -6,10 +6,10 @@
     Returns:
         bool
     */
-bool fnuc(a) {
+bool func(a) {
   return a >= 0;
 }
 
 void main() {
-  print(fnuc(0));
+  print(func(0));
 }
