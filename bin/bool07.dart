@@ -7,5 +7,10 @@
     Returns:
         bool
     */
+bool func(a, b) {
+  return a != b;
+}
 
-void main() {}
+void main() {
+  print(func(68, 458));
+}
