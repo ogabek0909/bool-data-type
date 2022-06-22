@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+bool fnuc(a) {
+  return a >= 0;
+}
 
-void main() {}
+void main() {
+  print(fnuc(0));
+}
